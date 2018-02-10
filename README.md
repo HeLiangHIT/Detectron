@@ -1,3 +1,6 @@
+> 2016 年 7 月，Detectron 项目正式启动，旨在创建一个基于 Caffe2 的快速灵活的物体检测系统，当时处于早期 alpha 开发。经过一年半的发展，Detectron 已成熟，并支持很多内部项目，比如：Mask R-CNN 和 Focal Loss for Dense Object Detection。这 2 个项目分别拿到了 ICCV 2017 的 Marr Prize 和 Best Student Paper 奖。由 Detectron 驱动的算法，为重要计算机视觉任务（比如实例分割）提供了直观的模型，并且在近年来我们社区视觉感知系统所取得的空前进步的中发挥了关键作用。除了研究，许多 Facebook 团队使用 Detectron 平台来培训各种应用的定制模型，包括增强现实和社区完整性。 一旦接受培训，这些模型可以部署在云端和移动设备上。
+
+
 # Detectron
 
 Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including [Mask R-CNN](https://arxiv.org/abs/1703.06870). It is written in Python and powered by the [Caffe2](https://github.com/caffe2/caffe2) deep learning framework.
